@@ -17,7 +17,7 @@ Esta licencia permite que otros compartan, copien y distribuyan tu trabajo, así
 ## Texto legal completo
 
 Puedes consultar el texto completo de la licencia aquí:  
-https://creativecommons.org/licenses/by-nc-sa/3.0/es/legalcode
+https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es
 
 ---
 
