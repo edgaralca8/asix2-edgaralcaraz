@@ -1,6 +1,6 @@
-# Curso de Machine Learning
+# ADMINISTRACIÓ DE SISTEMES OPERATIUS - Edgar Alcaraz
 
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
+Este repositorio contiene el material del curso de ADMINISTRACIÓ DE SISTEMES OPERATIUS de Edgar Alcaraz
 
 ## Contenido
 
@@ -21,5 +21,4 @@ El contenido está bajo licencia [Creative Commons BY-NC-ND 4.0 ES](LICENSE.md).
 
 ---
 
-© 2025 Mireia Consarnau
-
+© 2025 Edgar Alcaraz
