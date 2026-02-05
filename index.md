@@ -18,3 +18,5 @@ El contenido está bajo licencia [Creative Commons BY-NC-ND 4.0 ES](LICENSE.md).
 ### [1.Creació entorn d’arrencada amb systemd LINUX](unidad1/unidad1.md)  
 
 ### KERNEL (unidad1/kernel.md) 
+
+### Centralització d'usuarisamb un AD (unidad1/Centralitzaciód'usuarisambunAD.md)  
