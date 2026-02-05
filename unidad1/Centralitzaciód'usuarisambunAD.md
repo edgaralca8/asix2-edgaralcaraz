@@ -54,3 +54,55 @@ Configuració del lligam (binding) de lloc web segur a l'IIS, on s'assigna el pr
 Verificació final de la seguretat del servidor mitjançant el navegador, on es confirma l'accés satisfactori a https://edgar.edgar.local amb el missatge "Servidor de Edgar porfin es seguro!" i la presència de la icona del cadenat que indica una connexió xifrada i segura.
 
 <img width="925" height="453" alt="12" src="https://github.com/user-attachments/assets/f4ab39bf-583a-4da3-ae88-2f3049b04c0a" />
+
+
+Script Bash executat al client Ubuntu per automatitzar la instal·lació dels paquets necessaris (realmd, sssd, adcli) i la configuració del sistema per a la unió al domini edgar.local.
+
+
+<img width="855" height="944" alt="1ubuntu" src="https://github.com/user-attachments/assets/5955e5cd-57e3-430f-a230-742148b18219" />
+
+
+Configuració manual del fitxer /etc/resolv.conf on s'especifica el servidor DNS del domini (192.168.2.101) per garantir que el client pugui localitzar el controlador de domini Windows.
+
+
+<img width="861" height="606" alt="2ubuntu" src="https://github.com/user-attachments/assets/456adb07-3f58-49b0-a387-582997790859" />
+
+Inici de l'execució de l'script d'unió, realitzant la descàrrega de les llistes de paquets i la verificació de les dependències de programari al repositori oficial d'Ubuntu.
+
+<img width="868" height="837" alt="3ubuntu" src="https://github.com/user-attachments/assets/a553c938-67a2-4c27-9b82-9f33a151e0cf" />
+
+
+Finalització de la instal·lació de paquets i transició a la Fase 2, on el sistema sol·licita l'adreça IP del servidor Windows Server per procedir amb la configuració de l'Active Directory DNS.
+
+
+<img width="889" height="945" alt="4ubuntu" src="https://github.com/user-attachments/assets/9364fd4c-6989-4a96-9c89-10ba9e47da51" />
+
+
+Confirmació de l'èxit del procés: s'ha configurat l'accés sudo per als administradors del domini i s'informa que el client ja pot acceptar inicis de sessió d'usuaris d'Active Directory.
+
+
+<img width="774" height="164" alt="5ubuntu" src="https://github.com/user-attachments/assets/2d24a0e0-b82f-4c58-b7a1-35929a86bbb2" />
+
+
+Gestió d'usuaris des del servidor Windows: verificació de les propietats del compte de l'usuari "mireia2" dins de la unitat organitzativa d'Active Directory abans de provar l'accés des de Linux.
+
+
+<img width="863" height="676" alt="6ubuntu" src="https://github.com/user-attachments/assets/98c43499-5381-4d96-86d1-8d0ec988fe32" />
+
+
+Validació de l'inici de sessió al terminal d'Ubuntu amb l'usuari mireia2@edgar.local, on el sistema confirma la creació automàtica del directori personal (home) de l'usuari.
+
+
+<img width="674" height="68" alt="7ubuntu" src="https://github.com/user-attachments/assets/3718167a-0210-49b4-933b-16b48a99e2fa" />
+
+
+Interfície d'inici de sessió gràfica d'Ubuntu reconeixent l'usuari del domini mireia2@edgar.local, demostrant la integració completa del client Linux en l'ecosistema de Windows Server.
+
+
+<img width="523" height="313" alt="8ubuntu" src="https://github.com/user-attachments/assets/9304208f-1788-4811-bdb4-9616665799c9" />
+
+
+Sessió d'escriptori activa d'Ubuntu amb l'usuari de domini connectat, verificant el nom d'usuari i la màquina mitjançant el prompt del terminal.
+
+
+<img width="722" height="306" alt="9ubuntu" src="https://github.com/user-attachments/assets/dea9721c-ece3-45f8-9b8e-6cfaaac22d56" />
