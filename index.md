@@ -19,4 +19,4 @@ El contenido está bajo licencia [Creative Commons BY-NC-ND 4.0 ES](LICENSE.md).
 
 ### KERNEL (unidad1/kernel.md) 
 
-### [Centralització d'usuarisamb un AD] (unidad1/Centralitzaciód'usuarisambunAD.md)  
+### [Centralització d'usuarisamb un AD](unidad1/centralitzacio-usuaris-ad.md)  
